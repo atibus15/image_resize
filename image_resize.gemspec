@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["adamson.ibus@gmail.com"]
 
   spec.summary       = %q{Resize images}
-  spec.description   = %q{Resize images}
+  spec.description   = %q{This resize an images}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
@@ -30,5 +30,6 @@ Gem::Specification.new do |spec|
   
   spec.add_development_dependency "bundler", "~> 1.9"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rspec"
 
 end
